@@ -1,0 +1,252 @@
+
+.centered {
+      text-align: center;
+      border: none;
+      outline: none;
+    }
+
+/* คำสั่งปรับให้อยู่ตรงกลาง ที่ใส่border กับ outlineมาเพิ่มเพราะตอนแรกลองรันโค้ดแล้วมีสี่เหลี่ยมสีเขียวมาจากไหนไม่รู้เลยใส่ none ดักไว้ */
+
+.profile-pic {
+  border-radius: 80px;
+  box-shadow: 0 5px 16px rgba(0, 0, 0, 0.8); 
+  margin-top: 20px; 
+}
+
+/* noteeeee radius เลขยิ่งเยอะยิ่งมน
+shadow 8px คือเลื่อนเงาลง
+16 px คือการเบลอเงา
+ค่า rgb คือการคุมสี */
+
+.text-box {
+  border: 3px solid #9d0303;
+  padding: 15px;               
+  margin: 20px auto;            
+  width: 80%;                   
+  border-radius: 8px;           
+  background-color: #e1cccc;    
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.font-main {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 16px;
+  font-weight: normal;
+  color: #ab1e1e;
+} 
+
+.font-heading {
+  font-style: italic;
+  font-size: 30px;
+  font-weight: bold;
+  color: #000000;          
+  border-radius: 20px;           
+  background-color: #e1cccc;    
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.font-soft {
+  font-family: 'Georgia', serif;
+  font-size: 18px;
+  font-style: oblique;
+  font-weight: bold;
+  color: #1e0000;
+  
+  
+}
+
+
+
+
+.navbar {
+  background-color: #ffffff;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  padding: 10px 0;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+.nav-links {
+  text-align: center;
+}
+.nav-links a {
+  margin: 0 15px;
+  color: #0078D4;
+  font-weight: 500;
+}
+
+.skills-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin: 40px auto;
+}
+.skill-box {
+  width: 40%;
+  background-color: #ffffff;
+  padding: 20px;
+  margin: 10px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+a {
+  color: #0078D4;
+  text-decoration: none;
+  font-weight: bold;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background-color: #f9f9f9;
+}
+.intro {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+  padding: 30px 40px;
+  border-radius: 20px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+  background-color: white;
+  width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.profile-pic {
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 30px;
+}
+
+.intro-text h1 {
+  font-size: 36px;
+  margin: 0;
+}
+
+.intro-text p {
+  font-size: 16px;
+  color: #555;
+  margin-top: 10px;
+  max-width: 500px;
+}
+
+.subheading {
+  font-family: 'Merriweather', serif; */
+  font-size: 20px;
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 10px;
+  text-transform: capitalize;
+  letter-spacing: 0.5px;
+}
+
+.skills-section {
+  margin-top: 60px;
+  padding: 0 20px 60px;
+  text-align: center;
+}
+
+.subheading2 {
+  font-family: 'Merriweather', serif;
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 40px;
+  color: #333;
+}
+
+.skill-card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  border-radius: 15px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+  margin: 20px auto;
+  padding: 20px;
+  max-width: 900px;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.skill-img {
+  width: 250px;
+  height: 160px;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+.skill-text {
+  text-align: left;
+  max-width: 500px;
+}
+
+.skill-text h3 {
+  margin: 0;
+  font-weight: 600;
+  font-size: 20px;
+  color: #111;
+}
+
+.skill-text p {
+  margin-top: 10px;
+  color: #555;
+  font-size: 15px;
+  line-height: 1.5;
+}
+
+.footer {
+  text-align: center;
+  padding: 30px 0;
+  font-size: 14px;
+  color: #777;
+  background-color: transparent;
+}
+
+.card-custom {
+  width: 100%;
+  max-width: 600px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 1rem;
+  border-radius: 15px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.05);
+  margin: 1rem;
+}
+
+.card-custom img {
+  width: 40%;
+  height: auto;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+.card-body {
+  flex: 1;
+  padding-left: 1rem;
+}
+
+/* Responsive: Layout แนวตั้งเมื่อจอแคบ */
+@media (max-width: 768px) {
+  .card-custom {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .card-custom img {
+    width: 100%;
+    margin-bottom: 1rem;
+  }
+
+  .card-body {
+    padding-left: 0;
+  }
+}
